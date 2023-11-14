@@ -1,0 +1,384 @@
+
+
+/* Debut pagination */
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-sarif;
+    transition: 0.3s ease;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 16px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+
+/* CARDS */
+
+.card-container {
+    min-height: calc(100vh - 4rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4em;
+}
+
+.card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2em;
+}
+
+.cards {
+    position: relative;
+    background: #feefd0;
+    max-width: 20em;
+    width: 20em;
+    height: auto;
+    margin: 1.5em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.6);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.cards:hover {
+    transform: translateY(-10px);
+}
+
+/* .card-image {
+    max-height: 14em;
+} */
+
+.card-image img {
+    max-width: 100%;
+    height: 15em;
+   margin-left: 2rem; 
+   margin-top: 2rem;
+}
+
+.card-info {
+    position: relative;
+    color: #222;
+    padding: 0.6em 2.2em 2.2em;
+}
+
+.card-info h3 {
+    font-size: 1.8em;
+    font-weight: 800;
+    margin-bottom: 0.3em;
+    margin-left: 3.5rem;
+}
+
+
+
+/* PAGINATION */
+
+/* .pagination {
+    margin-top: 6rem;
+    text-align: center;
+    margin: 1.9em 1.9em 3.8em;
+    user-select: none;
+}
+
+.pagination li {
+    display: inline-block;
+    margin: 0.3em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.3);
+}
+
+.pagination li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 2.6em;
+}
+
+.previous-page,
+.next-page {
+    background: #ffb30e;
+    width: 5em;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+.previous-page:hover {
+    transform: translateX(-5px);
+}
+
+.next-page:hover {
+    transform: translateX(5px);
+}
+
+.current-page,
+.dots {
+    background: #ccc;
+    width: 2.8em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.current-page:hover,
+.dots:hover {
+    transform: translateY(-5px);
+}
+
+.pagination li.active {
+    background: #333;
+}
+
+.pagination li.disable {
+    background: #ccc;
+} */
+
+.page h2{
+    margin-right: 15rem;
+    
+}
+
+
+/* MEDIA QUERIES */
+
+
+
+@media (min-width: 100px) and (max-width: 800px) {
+    .page h2{
+        margin-right: 0px;
+        font-size: 15px;
+    }
+    body {
+        font-size: 12px;
+    }
+    .pagination {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+    }
+}
+
+
+
+
+
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+   
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.page-item {
+    margin: 0 3px;
+}
+
+.page-link {
+    display: block;
+    padding: 0px 15px;
+    text-decoration: none;
+    color: #333;
+    background-color: #ffb30e;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+   
+}
+
+.page-link:hover {
+    background-color: #ffb30e;
+    color: #fff;
+}
+
+.page-item.disable .page-link {
+    cursor: not-allowed;
+}
+
+.page-item.active .page-link {
+    background-color: #ffb30e;
+    color: #fff;
+    border-radius: 50%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* Fin pagination */
+
+
+
+
+.phone 
+    {
+        max-height: 45vh;
+    }
+.page img{
+    width: 60px;
+}
+@media only screen and (max-width: 800px){
+
+    .page img{
+        width: 40px;
+    }
+    .phone 
+    {
+        width: 100%;
+    }
+    .store img{
+        width: 200px;
+    }
+    .page-item {
+        margin: 0 3px;
+        padding: 0px;
+    }
+    .page-link {
+        display: block;
+        padding: 0px 5px;
+        
+       
+    }
+    
+    }
+/*damiens*/
+
+.restaurant-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.restaurant-card {
+    width: 23%;
+    margin-bottom: 20px;
+}
+
+.restaurant-card img {
+    width: 450%;
+    height: auto;
+    border-radius: 8px;
+
+}
+
+ .restaurant-card .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 10px; 
+}
+
+.restaurant-card .logo {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 20px; 
+    
+}
+
+ .restaurant-card h6 {
+     margin-left: 90px; 
+     margin-bottom: 50px;
+     margin-top: -65px;
+     white-space: nowrap;
+  
+}
+
+.card-star {
+     color: orange; 
+     text-align: center;        
+     margin-bottom: 15px;       
+     margin-top: -50px;
+     margin-left: 95px;           
+}
+
+
+.card-title {
+     text-align: center;         
+     
+}
+
+
+/* Styles pour les boutons de Foodworld et Pizzahub */
+.foodworld-btn,
+.pizzahub-btn {
+    background-color: #FFA500; 
+    color: #FF4500; 
+    
+}
+
+
+/* Styles pour les boutons de Donuts Hut */
+.donuts-hut-btn1,
+.donuts-hut-btn2 {
+ background-color: #98FB98; 
+ color: #006400; 
+}
+
+/* Styles pour les boutons de Ruby Tuesday, Kuakata Fried Chicken, Red Square et Taco Bell */
+.Ruby-Tuesday-btn,
+.Kuakata-Fried-Chicken-btn,
+.Red-Square-btn,
+.Taco-Bell-btn {
+  background-color: #98FB98; 
+  color: #006400; 
+}
+     
+
+.btn {
+white-space: nowrap;
+display: inline-block;
+text-align: right; 
+padding: 5px -120px; 
+padding-right: 120px;
+margin-top: 30px; 
+}
+
+ 
+ /* Ajoutez ces styles à votre feuille de style CSS */
+.custom-btn {
+background-color: orange; 
+color: white; 
+padding: 10px 20px; 
+text-decoration: none; 
+display: inline-block;
+}
+
+.custom-btn:hover {
+background-color: #FFD700; 
+}     
+.center-link {
+text-align: center;
+margin-bottom: 20px;
+}
+@media (max-width: 779px) {
+.restaurant-card {
+flex-direction: column;
+height: auto;
+}
+
+
+
+.btn {
+text-align: center;
+padding-right: 0;
+margin-top: 15px;
+}
+}
+

@@ -1,0 +1,226 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+body{
+    margin:0 !important;
+}
+
+/* .content2 a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 50px;
+    border-radius: 10px;
+   
+} */
+.a {
+    margin-top: 130px;
+    width: 100%;
+    
+}
+.a h5{
+}
+.content2 h3 span{
+    color: orange;
+}
+.content, .content22{
+    text-align: justify;
+
+
+}
+.content2{
+    margin-left: 30px;
+    margin-top:80px ;
+}
+.container{
+    border: none;
+}
+.h3 {
+    margin-top: -10%;
+    text-align: center;
+    color :rgb(248, 235, 209);
+}
+.h3 span{
+    color:orangered;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+@media screen and (max-width : 200px){
+    .content2 h5{
+        margin: -200px;
+    }
+
+    
+}
+=======
+body{
+    margin:0 !important;
+}
+.card-group{
+    padding: 15px;
+}
+.card-group{
+    border: none;
+}
+
+.card{
+    line-height: 40px;
+    border: none;
+    padding: 10px;
+}
+.card img{
+    border-radius: 10px;
+}
+.card span{
+    color: #FFB30E;}
+.btn{
+    background-color: #F17228;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* PROMOTION */
+
+.dead-line{
+    background-color: rgba(241, 114, 40, 0.20);
+    color: #F17228;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.span{
+    background-color: #FFB30E;
+    padding: 3%;
+}
+
+.promo{
+    position: absolute;
+    bottom: 32%;
+    width: 30%;
+}
+
+/* END PROMOTION */
+@media(max-width: 500px) {
+    .promo{
+        position: absolute;
+        bottom: 33%;
+        width: 30%;
+    }
+  }
+>>>>>>> 10fadfd999192a0f8d8a5f99830dc7251ea02e21
+=======
+body {
+    margin: 0 !important;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+header {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("{{asset('image/cprvgknm.png')}}");
+    overflow: hidden;
+    position: relative;
+}
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.header::after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.header h1 {
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    z-index: 1;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.red-text {
+    color: red;
+}
+.orange-text {
+    color: orange;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+.menu li {
+    margin-right: 40px;
+}
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.bold-text {
+    font-weight: bold;
+}
+.user-login {
+    display: flex;
+    align-items: center;
+}
+.login-link {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.orange-icon {
+    color: orange;
+    margin-right: 5px;
+}
+.orange-text {
+    color: orange;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+}
+i {
+    font-size: 24px;
+}
+@media screen and (max-width: 768px) {
+    .header {
+        height: 200px;
+    }
+}
+/*damiens css*/
