@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <title>Document</title>
 </head>
-<body>
+<body> 
     <a href="/">Retour</a>
     <div class="container">
         <div class="row my-5">
             <div class="col-lg-12">
+              <div class="id">{{!}}</div>
                 <h2>Passer la Commande</h2>
                 <div class="card sadow">
                     <div class="card-header d-flex justify-content-betweeen align-items-center">

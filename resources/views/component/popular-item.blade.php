@@ -1,7 +1,7 @@
 
 
 
-
+<div class="container">
 <h1 class="text-center">Popular Items</h1>
 <div class="card-group" >
     <div class="card fw-bolder" style="width: 18rem;">
@@ -37,7 +37,7 @@
       <div class="card fw-bolder" style="width: 18rem;">
         <img src="{{asset('images/Frame 40.jpg')}}" alt="">
         <div class="card-body">
-          <h5 class="card-title">Crispy Sandwitch</h5>
+          <h5 class="card-title">CrispSandwitch</h5>
           <span><i class="ri-map-pin-fill"></i>Fastfood Dine</span>
           <h5>$3.00</h5>
           <a href="{{ url('/details') }}" class="btn btn">ORDER NOW</a>
@@ -54,4 +54,5 @@
         </div>
       </div>
     
+</div>
 </div>

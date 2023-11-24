@@ -33,5 +33,5 @@ class ControllerItems extends Controller
             return redirect('/details')->with('status',"le commande a bien été enregistrer");
     
     
-        }
+        } 
 }

@@ -30,7 +30,7 @@
                         <div class="card-body">
                         <h6 class="card-title">Foodworld</h6>
                         <div class="card-star">⭐46</div> 
-                        <a href="#" class="btn foodworld-btn">Opens tomorrow</a>
+                        <a href="#" class="btn foodworld-btn" style="width: 600%;">Opens tomorrow</a>
 
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                         <div class="card-body">
                          <h6 class="card-title">Pizzahub</h6>
                          <div class="card-star">⭐40</div> 
-                        <a href="#" class="btn pizzahub-btn">Opens tomorrow</a>
+                        <a href="#" class="btn pizzahub-btn" style="width: 600%;">Opens tomorrow</a>
                     </div>
                 </div>
             </div>

@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/wel', function () {
-    return view('welcome');
-});
+ Route::get('/', function () {
+     return view('welcome');
+ });
 Route::get('/preview',function(){
     return view('../component/preview');
 });
@@ -25,6 +25,6 @@ Route::post("/details/traitement", [ControllerItems::class,'store']);
 
 
 
-Auth::routes();
+/*Auth::routes();
 
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');*/
